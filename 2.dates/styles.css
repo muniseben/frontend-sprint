@@ -1,0 +1,12 @@
+.timebox{
+    display: inline-block;
+    border: 1px solid rgb(29, 171, 116);
+    border-radius: 5px;
+    height: 180px;
+    width: 180px;
+    padding-top: 35px;
+
+
+}
+
+.timebox h2, .timebox p{text-align: center;}
