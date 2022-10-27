@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital clock With Date</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+<!--
 <h1>Time Zones</h1>
 
 <div class="timebox">
@@ -40,7 +40,33 @@
 <div class="timebox">
     <h2>from 2/1/2013</h2>
     <p id="Passed"></p>
+</div> -->
+
+<div class="datetime">
+    <div class="date">
+        <span id="dayname">Day</span><br><br>
+        <span id="month" >Month</span><br>
+        <span id="daynum">00</span>
+        <span id="year">Year</span>
+    </div>
+
+    <br><br>
 </div>
+
+
+<!-- <div class="datetime"> -->
+    <div id="x"></div>
+
+    <div id="y"></div>
+</div>
+
+<div class="time">
+    <span id="hour">00</span>:
+    <span id="minutes">00</span>:
+    <span id="seconds">00</span>
+    <!-- <span id="period">AM</span> -->
+
+    <input type="button" id="changeFormat" value="Change format" />
 
 </div>
     <script src="script.js"></script>

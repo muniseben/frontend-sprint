@@ -1,12 +1,52 @@
-.timebox{
+/* .timebox{
     display: inline-block;
     border: 1px solid rgb(29, 171, 116);
     border-radius: 5px;
     height: 180px;
     width: 180px;
     padding-top: 35px;
+}
 
+.timebox h2, .timebox p{text-align: center;} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    /* Viewport Height (vh) ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #e2dfd0 ;
+}
+
+.datetime {
+    display:block;
+    color:rgb(46, 43, 43);
+    background: #eeeef6;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 100px;
+    height: 200px;
+    padding: 25px 15px;
+    border: 3px solid #555656;
+    border-radius: 10px;
 
 }
 
-.timebox h2, .timebox p{text-align: center;}
+.date {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time {
+    /* display:inline; */
+    font-weight: 600;
+    color:rgb(46, 43, 43);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding:25px;
+}
