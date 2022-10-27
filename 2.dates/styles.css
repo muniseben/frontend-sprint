@@ -1,26 +1,38 @@
-/* .timebox{
-    display: inline-block;
-    border: 1px solid rgb(29, 171, 116);
-    border-radius: 5px;
-    height: 180px;
-    width: 180px;
-    padding-top: 35px;
-}
-
-.timebox h2, .timebox p{text-align: center;} */
-
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 3px;;
+    padding: 0;
 }
 
 body {
     height: 100vh;
     /* Viewport Height (vh) ekran yüksekliğinin 100/1'lik bir bölümüne denk geliyor. */
-    display:flex;
+    display:inline-flex;
     justify-content: center;
     align-items: center;
     background: #e2dfd0 ;
+}
+
+ .timebox{
+    display:block;
+    color:rgb(46, 43, 43);
+    background: #eeeef6;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    width: 130px;
+    height: 170px;
+    padding: 25px 15px;
+    margin: 10px;
+    border: 3px solid #555656;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+    /* display: inline-block;
+    border: 1px solid rgb(29, 171, 116);
+    border-radius: 5px;
+    height: 180px;
+    width: 180px;
+    padding-top: 35px; */
 }
 
 .datetime {
@@ -28,25 +40,15 @@ body {
     color:rgb(46, 43, 43);
     background: #eeeef6;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    width: 100px;
-    height: 200px;
+    width: 130px;
+    height: 170px;
     padding: 25px 15px;
+    margin: 10px;
     border: 3px solid #555656;
     border-radius: 10px;
-
-}
-
-.date {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
-.time {
-    /* display:inline; */
-    font-weight: 600;
-    color:rgb(46, 43, 43);
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    padding:25px;
-}
