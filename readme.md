@@ -3,6 +3,7 @@
 ## What's inside?
 
 #### 1.timeouts-intervals
+
 #### 2.dates
 #### 3.async-fetch
 
@@ -12,7 +13,20 @@
 - element.classList
 - array.forEach()
 - setInterval()
+- clearInterval()
 - setTimeout()
+- forEach()
+- addEventListener()
+- Math.ceil()
+- getTime()
+- getUTCDate()
+- new Date()
+- getMonth()
+- getFullYear()
+- new Intl.DateTimeFormat('en-US', options)
+- dates.toLocaleString()
+
+-
 
 
 
