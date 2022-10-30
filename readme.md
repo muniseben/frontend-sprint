@@ -25,9 +25,7 @@
 - getFullYear()
 - new Intl.DateTimeFormat('en-US', options)
 - dates.toLocaleString()
-
--
-
-
+- JSON.stringify(json)
+- fetch().then().then().catch()
 
 ![yeah](https://media.giphy.com/media/3o7qDEq2bMbcbPRQ2c/giphy.gif)

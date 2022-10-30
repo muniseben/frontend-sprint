@@ -229,3 +229,52 @@ console.log(maskedNumber);
 //   var seconds = totalSeconds - (hour * 3600 + minute * 60);
 //   document.getElementById("count_up_timer").innerHTML = hour + " hours has passed " + minute + " minutes has passed " + seconds + " seconds has passed " ;
 // }
+
+//////////////////// Eski ornek  ///////////////////////////
+
+// For this exercise we're going to use VSCode's live-server extension, which allows us to have a running backend in a few seconds.
+// Create a new directory (= folder), containing 3 files:
+// index.html
+// script.js
+// becode.json
+
+// Create a <button>, when clicked becode rules are loaded with a fetch('becode.json'), then dynamically generate a <ul> list containing each rule in a <li>.
+
+// const body = document.querySelector('body')
+
+// const button = document.createElement('button')
+// body.appendChild(button)
+// button.innerText= "click"
+
+// const div = document.createElement("div");
+// body.appendChild(div)
+
+// const ul = document.createElement('ul');
+// div.appendChild(ul)
+
+// button.addEventListener('click',() => {
+//   fetch('becode.json')
+//   .then(response => response.json())
+//   .then(json => {
+//     // for (let i = 0; i<json.length; i++ ){
+//       var li = document.createElement('li');
+//       li.innerHTML = json[0];
+//       ul.appendChild(li)
+
+//       var li = document.createElement('li');
+//       li.innerHTML = json[1];
+//       ul.appendChild(li)
+
+//       var li = document.createElement('li');
+//       li.innerHTML = json[2];
+//       ul.appendChild(li)
+
+//       var li = document.createElement('li');
+//       li.innerHTML = json[3];
+//       ul.appendChild(li)
+//     // }
+//   })
+//   .catch(error => {
+//     console.log('Fetch gives error: ',error)
+//   })
+// });
